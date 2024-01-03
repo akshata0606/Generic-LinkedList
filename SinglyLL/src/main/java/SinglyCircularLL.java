@@ -51,6 +51,8 @@ class SinglyCircularImp {
 
     }
         public void DeleteLast(){
+
+            System.out.println("Akshata");
             if (head == null && tail == null){
                 return;
             }else if(head.next == head){
